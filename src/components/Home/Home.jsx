@@ -3,7 +3,34 @@ import React from 'react'
 const Home = () => {
   return (
     <div>
-      Home  
+      Home <br /> 
+      Home <br /> 
+      Home <br /> 
+      Home <br /> 
+      Home <br /> 
+      Home <br /> 
+      Home <br /> 
+      Home <br /> 
+      Home <br /> 
+      Home <br /> 
+      Home <br /> 
+      Home <br /> 
+      Home <br /> 
+      Home <br /> 
+      Home <br /> 
+      Home <br /> 
+      Home <br /> 
+      Home <br /> 
+      Home <br /> 
+      Home <br /> 
+      Home <br /> 
+      Home <br /> 
+      Home <br /> 
+      Home <br /> 
+      Home <br /> 
+      Home <br /> 
+      Home <br /> 
+      Home <br /> 
     </div>
   )
 }
