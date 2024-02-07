@@ -16,7 +16,7 @@ const Auth = ({ modal, setModal }) => {
   return (
     <Modal modal={modal} setModal={setModal} hideModal={hideModal}>
       <section className={`fixed z-50 inset-0 m-auto w-[90%] md:w-[50%] h-max 
-      py-12 px-3 bg-white overflow-auto shadows text-center rounded transition-all duration-500 ${hideModal}`}
+      py-12 px-3 bg-white overflow-auto shadows text-center rounded-md transition-all duration-500 ${hideModal}`}
       >
         <button 
         onClick={() => setModal(false)}
