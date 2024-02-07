@@ -8,16 +8,15 @@ import SignIn from './SignIn';
 import SignUp from './SignUp';
 
 
-const Auth = () => {
+const Auth = ({ modal, setModal }) => {
     const [createUser, setCreateUser] = useState(false);
     const [signReq, setSignReq] = useState("");
-    const [modal, setModal] = useState(true);
 
     const hideModal = modal ? "visible opacity-100" : "invisible opacity-0";
   return (
     <Modal modal={modal} setModal={setModal} hideModal={hideModal}>
       <section className={`fixed z-50 inset-0 m-auto w-[90%] md:w-[50%] h-max 
-      py-    px-3 bg-white overflow-auto shadows text-center rounded transition-all duration-500 ${hideModal}`}
+      py-12 px-3 bg-white overflow-auto shadows text-center rounded transition-all duration-500 ${hideModal}`}
       >
         <button 
         onClick={() => setModal(false)}
