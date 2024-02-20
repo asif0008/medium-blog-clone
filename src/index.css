@@ -11,7 +11,7 @@ body {
 }
 
 .container-size {
-  @apply w-[95%] md:w-[85%] mx-auto;
+  @apply w-[95%] md:max-w-[1340px] mx-auto;
 }
 
 .shadows {
