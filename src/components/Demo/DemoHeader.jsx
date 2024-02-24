@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../../assets/medium_logo.png'
+// import logo from '../../assets/medium_logo.png'
 import { nav } from '../../data'
 import Auth from './Auth/Auth'
 
@@ -25,7 +25,7 @@ const DemoHeader = () => {
       <div className='container-size h-[70px] flex items-center justify-between'>
         <Link to={"/"}>
           <img className='h-[2.5rem]' 
-          src={logo} 
+          src="/medium_logo.png" 
           alt="logo" 
           />
         </Link>

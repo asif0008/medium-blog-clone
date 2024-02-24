@@ -5,7 +5,7 @@ const Modal = ({ children, modal, setModal, hideModal }) => {
     <>
       <div 
       onClick={() => setModal(false)}
-      className={`bg-white/70 fixed inset-0 z-10 ${hideModal} transition-all duration-500`} />
+      className={`bg-black/30 fixed inset-0 z-10 ${hideModal} transition-all duration-500`} />
       {children}
     </>
   )
